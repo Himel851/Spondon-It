@@ -1,0 +1,127 @@
+.payment {
+  background: #EFF5FC;
+  .img {
+    position: relative;
+
+    .mainBg {
+      width: 60%;
+    }
+    .bg1 {
+      position: absolute;
+      width: 60%;
+      top: 2%;
+      left: 0;
+    }
+    .bg2 {
+      position: absolute;
+      width: 45%;
+      top: 14%;
+      left: 8%;
+    }
+    .center {
+      position: absolute;
+      top: 38%;
+      left: 22%;
+      width: 18%;
+    }
+    .paypal {
+      position: absolute;
+      top: -20%;
+      left: 30%;
+      width: 28%;
+    }
+    .instamojo {
+      position: absolute;
+      top: 23%;
+      left: 48%;
+      width: 25%;
+    }
+    .bank {
+      position: absolute;
+      bottom: -5%;
+      left: 40%;
+      width: 28%;
+    }
+    .stripe {
+      position: absolute;
+      width: 28%;
+      bottom: -20%;
+      left: 0;
+    }
+    .sign {
+      position: absolute;
+      width: 25%;
+      left: -5%;
+    }
+    .cash {
+      position: absolute;
+      width: 25%;
+      left: 10%;
+    }
+    .paytm {
+      position: absolute;
+      width: 25%;
+      left: -3%;
+      top: 40%;
+    }
+    .pay {
+      position: absolute;
+      left: 35%;
+      top: 10%;
+      width: 25%;
+    }
+    .flutter {
+      position: absolute;
+      left: 25%;
+      bottom: -3%;
+      width: 22%;
+    }
+  }
+
+  .right {
+    background: #c6c9cb;
+    border-radius: 5px;
+    .logo {
+      padding: 15px;
+      width: 13%;
+      margin-left: 10px;
+    }
+    .logo:hover {
+      width: 15%;
+    }
+  }
+  h3 {
+    font-family: "Asap";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: right;
+    color: #4277ff;
+  }
+  .support {
+    h2 {
+      font-family: "Asap";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 60px;
+      color: #495264;
+    }
+    span {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 30px;
+      opacity: 0.6;
+      
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .right{
+    
+  }
+}
